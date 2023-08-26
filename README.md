@@ -85,7 +85,7 @@ Get-ChildItem -Path "PathWhereModuleIsInstalled" -Recurse | Unblock-File
 ```
 
 
-## Notes:
+## Notes
 
 * To Ensure The Smooth Operation Of "SnsPsAdGroupMembers" PSModule Install It With "AllUsers" Scope. The Idea Behind This Module Is To Be Used On A Scheduled Task "As Service" For The Actual Group Members Management, And Interactively By IT Administrators To Create And Modify The Managed Groups Configuration. This Requires The PSModule To Be Available To Multiple User Accounts.
 
