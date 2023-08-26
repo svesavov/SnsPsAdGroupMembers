@@ -5,13 +5,11 @@
 
 # SnsPsAdGroupMembers PowerShell Module
 
-* This is a PowerShell module for automatic on premises Active Directory group members management.
-* In general the PowerShell binary CmdLets are much faster comparing with the written-on PowerShell ones. Which was my main argument to make this PowerShell module a Binary Module.
+* This is a binary PowerShell module for automatic on premises Active Directory group members management. In general the PowerShell binary CmdLets are much faster comparing with the written-on PowerShell ones.
 * The SnsPsAdGroupMembers PowerShell Module uses AD attributes-based logic with LDAP syntax for managing the AD group members.
-* The SnsPsAdGroupMembers PowerShell Module does allow different logic for adding members than removing members logic.
-* The SnsPsAdGroupMembers PowerShell Module does support inclusions and exclusions.
+* The SnsPsAdGroupMembers PowerShell Module supports different logic for adding members than removing members logic.
+* The SnsPsAdGroupMembers PowerShell Module supports inclusions and exclusions.
 * The SnsPsAdGroupMembers PowerShell Module does have reporting capabilities. Reporting the actions taken over the groups to their respective owners is the main factor the group members automation success.
-* The SnsPsAdGroupMembers PowerShell Module does support inclusions and exclusions.
 * The SnsPsAdGroupMembers PowerShell Module uses SQLite databases to store the managed ad groups configuration and the events that happen during the groups management. Both DataBases are originally located at C:\ProgramData\SnsAdGroupMembers. If you need to change their location please refer to the comments within the PowerShell module .PSM1 file.
 
 
